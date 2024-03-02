@@ -1,0 +1,2 @@
+# This is /dev/null platform that purposefully unusable
+platform(name = "DEV_NULL_PLATFORM")

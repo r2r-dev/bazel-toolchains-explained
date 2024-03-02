@@ -1,0 +1,10 @@
+""" This package contains various example targets to build (and fail). """
+
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+# This targets should be used, to verify that toolchain resolution
+# is configured strictly and does not allow usage of toolchain from host.
+cc_binary(
+    name = "hello",
+    srcs = ["main.cpp"],
+)

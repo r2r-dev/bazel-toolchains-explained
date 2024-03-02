@@ -21,7 +21,6 @@
       statix
     ];
   };
-
 in {
   inherit devShell nixpkgs;
 }

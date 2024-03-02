@@ -7,7 +7,7 @@ build --color=no
 test --color=no
 
 ## Bzlmod will only make it more difficult to explain the basics
-## Therfore it needs to take a nap
+## Therefore it needs to take a nap
 ## Docs: https://bazel.build/reference/command-line-reference#flag--enable_bzlmod
 common --noenable_bzlmod
 

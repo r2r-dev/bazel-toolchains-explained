@@ -1,0 +1,13 @@
+"""Simple, vanilla rules_cc target example.
+
+Its goal is to help illustrating the toolchain resolution mechanism for
+single (CC) type of toolchain.
+"""
+
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_binary(
+    name = "hello",
+    srcs = ["hello.cpp"],
+    copts = ["-std=c++20"],
+)

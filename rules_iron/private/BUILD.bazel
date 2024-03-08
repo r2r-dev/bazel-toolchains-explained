@@ -1,0 +1,8 @@
+load("@rules_cc//cc:defs.bzl", "cc_binary")
+
+cc_binary(
+    name = "iron-binary-pre-compile",
+    srcs = ["iron-binary-pre-compile.c"],
+    linkstatic = True,
+    features = ["fully_static_link"],
+)
